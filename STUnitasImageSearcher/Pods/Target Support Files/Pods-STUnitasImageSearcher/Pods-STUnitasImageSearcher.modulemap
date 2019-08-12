@@ -1,0 +1,6 @@
+framework module Pods_STUnitasImageSearcher {
+  umbrella header "Pods-STUnitasImageSearcher-umbrella.h"
+
+  export *
+  module * { export * }
+}

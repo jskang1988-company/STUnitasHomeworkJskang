@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFC7080C22FEE38B00ED9746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC7080B22FEE38B00ED9746 /* AppDelegate.swift */; };
+		BFC7081122FEE38B00ED9746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC7080F22FEE38B00ED9746 /* Main.storyboard */; };
+		BFC7081322FEE38C00ED9746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC7081222FEE38C00ED9746 /* Assets.xcassets */; };
+		BFC7081622FEE38C00ED9746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC7081422FEE38C00ED9746 /* LaunchScreen.storyboard */; };
+		BFC7082822FF707200ED9746 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC7082722FF707200ED9746 /* SearchTableViewCell.swift */; };
+		BFC708392300836C00ED9746 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFC7083B2300836C00ED9746 /* Localizable.strings */; };
+		BFC708462301789B00ED9746 /* STUnitasImageSearcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC708452301789B00ED9746 /* STUnitasImageSearcherTests.swift */; };
+		BFC70856230184FB00ED9746 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC70854230184FB00ED9746 /* MainViewController.swift */; };
+		BFC70857230184FB00ED9746 /* DetailImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC70855230184FB00ED9746 /* DetailImageViewController.swift */; };
+		BFC7085A2301855500ED9746 /* ImageDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC708592301855500ED9746 /* ImageDocument.swift */; };
+		BFC7085D2301859900ED9746 /* KakaoRestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC7085C2301859900ED9746 /* KakaoRestApiManager.swift */; };
+		BFC70862230185CD00ED9746 /* STUnitasLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = BFC70860230185CD00ED9746 /* STUnitasLogo.png */; };
+		BFC70863230185CD00ED9746 /* GoToBackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = BFC70861230185CD00ED9746 /* GoToBackArrow.png */; };
+		FBFDB11E436DC92427098D14 /* Pods_STUnitasImageSearcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9155EB54E6B6F23FCDCDF5 /* Pods_STUnitasImageSearcher.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFC708482301789B00ED9746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFC7080022FEE38B00ED9746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFC7080722FEE38B00ED9746;
+			remoteInfo = STUnitasImageSearcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E9155EB54E6B6F23FCDCDF5 /* Pods_STUnitasImageSearcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STUnitasImageSearcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC7080822FEE38B00ED9746 /* STUnitasImageSearcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STUnitasImageSearcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC7080B22FEE38B00ED9746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFC7081022FEE38B00ED9746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFC7081222FEE38C00ED9746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFC7081522FEE38C00ED9746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFC7081722FEE38C00ED9746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC7082722FF707200ED9746 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		BFC7083A2300836C00ED9746 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BFC7083C230083BC00ED9746 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BFC7083D230083BC00ED9746 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		BFC7083E230083BC00ED9746 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		BFC708432301789B00ED9746 /* STUnitasImageSearcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STUnitasImageSearcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC708452301789B00ED9746 /* STUnitasImageSearcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STUnitasImageSearcherTests.swift; sourceTree = "<group>"; };
+		BFC708472301789B00ED9746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC70854230184FB00ED9746 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BFC70855230184FB00ED9746 /* DetailImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailImageViewController.swift; sourceTree = "<group>"; };
+		BFC708592301855500ED9746 /* ImageDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDocument.swift; sourceTree = "<group>"; };
+		BFC7085C2301859900ED9746 /* KakaoRestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoRestApiManager.swift; sourceTree = "<group>"; };
+		BFC70860230185CD00ED9746 /* STUnitasLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = STUnitasLogo.png; sourceTree = "<group>"; };
+		BFC70861230185CD00ED9746 /* GoToBackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoToBackArrow.png; sourceTree = "<group>"; };
+		CF18B2284D045ADB5A5096E4 /* Pods-STUnitasImageSearcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STUnitasImageSearcher.release.xcconfig"; path = "Target Support Files/Pods-STUnitasImageSearcher/Pods-STUnitasImageSearcher.release.xcconfig"; sourceTree = "<group>"; };
+		D910CB19BB7A1D1DFD696435 /* Pods-STUnitasImageSearcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STUnitasImageSearcher.debug.xcconfig"; path = "Target Support Files/Pods-STUnitasImageSearcher/Pods-STUnitasImageSearcher.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFC7080522FEE38B00ED9746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFDB11E436DC92427098D14 /* Pods_STUnitasImageSearcher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC708402301789B00ED9746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		560BA1E0DCEE918861423500 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D910CB19BB7A1D1DFD696435 /* Pods-STUnitasImageSearcher.debug.xcconfig */,
+				CF18B2284D045ADB5A5096E4 /* Pods-STUnitasImageSearcher.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6E71BF102EC9F30C9C5CECD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E9155EB54E6B6F23FCDCDF5 /* Pods_STUnitasImageSearcher.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFC707FF22FEE38B00ED9746 = {
+			isa = PBXGroup;
+			children = (
+				BFC7080A22FEE38B00ED9746 /* STUnitasImageSearcher */,
+				BFC708442301789B00ED9746 /* STUnitasImageSearcherTests */,
+				BFC7080922FEE38B00ED9746 /* Products */,
+				560BA1E0DCEE918861423500 /* Pods */,
+				6E71BF102EC9F30C9C5CECD2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BFC7080922FEE38B00ED9746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFC7080822FEE38B00ED9746 /* STUnitasImageSearcher.app */,
+				BFC708432301789B00ED9746 /* STUnitasImageSearcherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC7080A22FEE38B00ED9746 /* STUnitasImageSearcher */ = {
+			isa = PBXGroup;
+			children = (
+				BFC7080B22FEE38B00ED9746 /* AppDelegate.swift */,
+				BFC7080F22FEE38B00ED9746 /* Main.storyboard */,
+				BFC7081422FEE38C00ED9746 /* LaunchScreen.storyboard */,
+				BFC70853230184FB00ED9746 /* ViewControllerClass */,
+				BFC708582301855500ED9746 /* ModelClasses */,
+				BFC7085B2301859900ED9746 /* ServerRestApiManager */,
+				BFC7085E230185CD00ED9746 /* Resources */,
+				BFC7081222FEE38C00ED9746 /* Assets.xcassets */,
+				BFC7081722FEE38C00ED9746 /* Info.plist */,
+				BFC7083B2300836C00ED9746 /* Localizable.strings */,
+			);
+			path = STUnitasImageSearcher;
+			sourceTree = "<group>";
+		};
+		BFC708442301789B00ED9746 /* STUnitasImageSearcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFC708452301789B00ED9746 /* STUnitasImageSearcherTests.swift */,
+				BFC708472301789B00ED9746 /* Info.plist */,
+			);
+			path = STUnitasImageSearcherTests;
+			sourceTree = "<group>";
+		};
+		BFC70853230184FB00ED9746 /* ViewControllerClass */ = {
+			isa = PBXGroup;
+			children = (
+				BFC70854230184FB00ED9746 /* MainViewController.swift */,
+				BFC70855230184FB00ED9746 /* DetailImageViewController.swift */,
+				BFC7082722FF707200ED9746 /* SearchTableViewCell.swift */,
+			);
+			path = ViewControllerClass;
+			sourceTree = "<group>";
+		};
+		BFC708582301855500ED9746 /* ModelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				BFC708592301855500ED9746 /* ImageDocument.swift */,
+			);
+			path = ModelClasses;
+			sourceTree = "<group>";
+		};
+		BFC7085B2301859900ED9746 /* ServerRestApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				BFC7085C2301859900ED9746 /* KakaoRestApiManager.swift */,
+			);
+			path = ServerRestApiManager;
+			sourceTree = "<group>";
+		};
+		BFC7085E230185CD00ED9746 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFC7085F230185CD00ED9746 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BFC7085F230185CD00ED9746 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BFC70860230185CD00ED9746 /* STUnitasLogo.png */,
+				BFC70861230185CD00ED9746 /* GoToBackArrow.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFC7080722FEE38B00ED9746 /* STUnitasImageSearcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC7081A22FEE38C00ED9746 /* Build configuration list for PBXNativeTarget "STUnitasImageSearcher" */;
+			buildPhases = (
+				E63E3BCB2E8BB1B9D4E3792B /* [CP] Check Pods Manifest.lock */,
+				BFC7080422FEE38B00ED9746 /* Sources */,
+				BFC7080522FEE38B00ED9746 /* Frameworks */,
+				BFC7080622FEE38B00ED9746 /* Resources */,
+				EABA816B0DF26A59F8E579E2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STUnitasImageSearcher;
+			productName = STUnitasImageSearcher;
+			productReference = BFC7080822FEE38B00ED9746 /* STUnitasImageSearcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFC708422301789B00ED9746 /* STUnitasImageSearcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC7084A2301789B00ED9746 /* Build configuration list for PBXNativeTarget "STUnitasImageSearcherTests" */;
+			buildPhases = (
+				BFC7083F2301789B00ED9746 /* Sources */,
+				BFC708402301789B00ED9746 /* Frameworks */,
+				BFC708412301789B00ED9746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFC708492301789B00ED9746 /* PBXTargetDependency */,
+			);
+			name = STUnitasImageSearcherTests;
+			productName = STUnitasImageSearcherTests;
+			productReference = BFC708432301789B00ED9746 /* STUnitasImageSearcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFC7080022FEE38B00ED9746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = jskang;
+				TargetAttributes = {
+					BFC7080722FEE38B00ED9746 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					BFC708422301789B00ED9746 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = BFC7080722FEE38B00ED9746;
+					};
+				};
+			};
+			buildConfigurationList = BFC7080322FEE38B00ED9746 /* Build configuration list for PBXProject "STUnitasImageSearcher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+			);
+			mainGroup = BFC707FF22FEE38B00ED9746;
+			productRefGroup = BFC7080922FEE38B00ED9746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFC7080722FEE38B00ED9746 /* STUnitasImageSearcher */,
+				BFC708422301789B00ED9746 /* STUnitasImageSearcherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFC7080622FEE38B00ED9746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC7081622FEE38C00ED9746 /* LaunchScreen.storyboard in Resources */,
+				BFC708392300836C00ED9746 /* Localizable.strings in Resources */,
+				BFC70862230185CD00ED9746 /* STUnitasLogo.png in Resources */,
+				BFC70863230185CD00ED9746 /* GoToBackArrow.png in Resources */,
+				BFC7081322FEE38C00ED9746 /* Assets.xcassets in Resources */,
+				BFC7081122FEE38B00ED9746 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC708412301789B00ED9746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E63E3BCB2E8BB1B9D4E3792B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-STUnitasImageSearcher-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EABA816B0DF26A59F8E579E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-STUnitasImageSearcher/Pods-STUnitasImageSearcher-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-STUnitasImageSearcher/Pods-STUnitasImageSearcher-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-STUnitasImageSearcher/Pods-STUnitasImageSearcher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFC7080422FEE38B00ED9746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC7085D2301859900ED9746 /* KakaoRestApiManager.swift in Sources */,
+				BFC7082822FF707200ED9746 /* SearchTableViewCell.swift in Sources */,
+				BFC7085A2301855500ED9746 /* ImageDocument.swift in Sources */,
+				BFC70857230184FB00ED9746 /* DetailImageViewController.swift in Sources */,
+				BFC7080C22FEE38B00ED9746 /* AppDelegate.swift in Sources */,
+				BFC70856230184FB00ED9746 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC7083F2301789B00ED9746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC708462301789B00ED9746 /* STUnitasImageSearcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFC708492301789B00ED9746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFC7080722FEE38B00ED9746 /* STUnitasImageSearcher */;
+			targetProxy = BFC708482301789B00ED9746 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFC7080F22FEE38B00ED9746 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC7081022FEE38B00ED9746 /* Base */,
+				BFC7083D230083BC00ED9746 /* ko */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFC7081422FEE38C00ED9746 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC7081522FEE38C00ED9746 /* Base */,
+				BFC7083E230083BC00ED9746 /* ko */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BFC7083B2300836C00ED9746 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC7083A2300836C00ED9746 /* en */,
+				BFC7083C230083BC00ED9746 /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFC7081822FEE38C00ED9746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFC7081922FEE38C00ED9746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFC7081B22FEE38C00ED9746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D910CB19BB7A1D1DFD696435 /* Pods-STUnitasImageSearcher.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = STUnitasImageSearcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jskang.STUnitasImageSearcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFC7081C22FEE38C00ED9746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF18B2284D045ADB5A5096E4 /* Pods-STUnitasImageSearcher.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = STUnitasImageSearcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jskang.STUnitasImageSearcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFC7084B2301789B00ED9746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = STUnitasImageSearcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jskang.STUnitasImageSearcherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STUnitasImageSearcher.app/STUnitasImageSearcher";
+			};
+			name = Debug;
+		};
+		BFC7084C2301789B00ED9746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = STUnitasImageSearcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jskang.STUnitasImageSearcherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STUnitasImageSearcher.app/STUnitasImageSearcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFC7080322FEE38B00ED9746 /* Build configuration list for PBXProject "STUnitasImageSearcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC7081822FEE38C00ED9746 /* Debug */,
+				BFC7081922FEE38C00ED9746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC7081A22FEE38C00ED9746 /* Build configuration list for PBXNativeTarget "STUnitasImageSearcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC7081B22FEE38C00ED9746 /* Debug */,
+				BFC7081C22FEE38C00ED9746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC7084A2301789B00ED9746 /* Build configuration list for PBXNativeTarget "STUnitasImageSearcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC7084B2301789B00ED9746 /* Debug */,
+				BFC7084C2301789B00ED9746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFC7080022FEE38B00ED9746 /* Project object */;
+}
