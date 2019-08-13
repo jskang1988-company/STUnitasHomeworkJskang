@@ -19,7 +19,8 @@ ST유니타스 과제 저장소
 
 검색 결과는 JSON 형식으로 사용해야 합니다.
   
-Kakao Rest Server로 request에 대한 response로 받은 결과 JSON 형식을 Dictionary에 Parsing 하여 App에서 사용할 수 있도록 하였습니다.
+* Kakao Rest Server로 request에 대한 response로 받은 결과 JSON 형식을 Dictionary에 Parsing 하여 App에서 사용할 수 있도록 하였습니다.
+
 검색어 필드는 상단에 위치해야 합니다.
 
 * 앱 실행 후 바로 검색 화면으로 진입하며, 검색어 TextField는 상단에 위치해 두었습니다.
