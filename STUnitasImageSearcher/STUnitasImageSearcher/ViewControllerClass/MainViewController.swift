@@ -35,7 +35,7 @@ public class MainViewController: UIViewController, UITableViewDataSource, UITabl
     
     override public func viewDidLoad() {
         super.viewDidLoad()
-        tableView.rowHeight = 60
+        tableView.rowHeight = 80
         tableView.delegate = self
         tableView.prefetchDataSource = self;
         tableView.dataSource = self
